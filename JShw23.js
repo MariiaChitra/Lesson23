@@ -78,5 +78,32 @@ for (let method of methods) {
 
     let count = response.split(method).length - 1;
 
-    console.log(`${method}: ${count}`);
+    console.log(`${method}: ${count}`); // Count occurrences of the method in the response
 }
+// =====================================
+// CONSOLE OUTPUT 
+// =====================================
+// Response codes:
+
+//     const response = await fetch('https://jsonplaceholder.typicode.com/posts/1');
+
+//     if (!response.ok) {
+//         throw new Error('Ошибка сети');
+//     }
+
+//     const data = await response.json();
+//     console.log(data);
+
+
+//     method: 'POST',
+
+
+
+
+
+// REST methods:
+// GET: 2
+// POST: 3
+// PUT: 1
+// PATCH: 1
+// DELETE: 1
